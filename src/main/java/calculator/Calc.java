@@ -6,6 +6,7 @@ public class Calc {
 		// TODO Auto-generated method stub
 		
 		int res, num1, num2;
+		double resdiv;
 		num1 = 20;
 		num2 = 10;
 		
@@ -22,6 +23,10 @@ public class Calc {
 		// call div function
 		res = c.div(num1, num2);
 		System.out.println("Result of Div is:" + res); 
+		
+		// call multiply function
+		res = c.multiply(num1, num2);
+		System.out.println("Result of multiply is:" + res); 
 	}
 	
 	public  int add(int a, int b) {
@@ -42,5 +47,9 @@ public class Calc {
 	
 	public int div (int a, int b){
 		return a/b;
+	}	
+	
+	public int multiply (int a, int b){
+		return a*b;
 	}	
 }
