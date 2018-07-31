@@ -45,6 +45,7 @@ public class CalcTest {
 		int actualResult;
 		Calc calcObj = new Calc();
 		
+		
 		actualResult = calcObj.div(value1, value2);
 		
 		assertEquals(expectedResult,actualResult);
