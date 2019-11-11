@@ -12,13 +12,13 @@ public class CalcTest {
 
 	@Before
 	public void setUp() throws Exception {
-		  value1 = 2;
+		  value1 = 3;
 		  value2 = 1;
 	}
 
 	@Test
 	public  void testAdd() {
-		int expectedResult = 3;
+		int expectedResult = 4;
 		int actualResult;
 		Calc calcObj = new Calc();
 		
@@ -29,7 +29,7 @@ public class CalcTest {
 	
 	@Test
 	public  void testSub() {
-		int expectedResult = 1;
+		int expectedResult = 2;
 		int actualResult;
 		Calc calcObj = new Calc();
 		
@@ -41,7 +41,7 @@ public class CalcTest {
 	@SuppressWarnings("deprecation")
 	@Test
 	public  void testDiv() {
-		int expectedResult = 2;
+		int expectedResult = 3;
 		int actualResult;
 		Calc calcObj = new Calc();
 		
@@ -53,7 +53,7 @@ public class CalcTest {
 	
 	@Test
 	public  void testMultiply() {
-		int expectedResult = 2;
+		int expectedResult = 3;
 		int actualResult;
 		Calc calcObj = new Calc();
 		
