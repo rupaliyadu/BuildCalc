@@ -7,7 +7,7 @@ public class Calc {
 		
 		int res, num1, num2;
 		double resdiv;
-		num1 = 20;
+		num1 = 30;
 		num2 = 10;
 		
 		Calc c = new Calc(); // initialize object
